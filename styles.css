@@ -130,7 +130,7 @@ img {
 
 .preview-animation {
     display: block;
-    animation: fadein 1s ease-out;
+    animation: fadein 0.85s ease-out;
 }
 
 @keyframes fadein {

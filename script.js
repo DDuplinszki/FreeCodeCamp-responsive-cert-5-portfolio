@@ -18,19 +18,29 @@ const anchorArr = [anchorTribute, anchorLanding, anchorDoc, anchorSurvey]
 
 // });
 
-anchorTribute.addEventListener('mouseover', () => {
-    previewTribute.classList.toggle('preview-animation');
-})
-anchorTribute.addEventListener('mouseout', () => {
-    previewTribute.classList.toggle('preview-animation');
-
-});
-
-
-// anchorArr.forEach((element) => {
-//     element.addEventListener('mouseover', (e) => {
-//         previewArr.forEach((styling) => {
-//             styling.style.display = 'block';
-//         })
-//     })
+// anchorTribute.addEventListener('mouseover', () => {
+//     previewTribute.classList.toggle('preview-animation');
 // })
+// anchorTribute.addEventListener('mouseout', () => {
+//     previewTribute.classList.toggle('preview-animation');
+// });
+
+
+anchorArr.forEach((element) => {
+    element.addEventListener('mouseover', () => {
+        console.log(anchorArr.indexOf(element));
+        previewArr.forEach((styling) => {  
+            console.log(anchorArr.indexOf(element));
+            let styleArr = [];
+            styleArr.push(anchorArr.indexOf(element));
+            console.log(styleArr);
+            // anchorArr.indexOf(element).classList.toggle('preview-animation');
+            styleArr.classList.toggle('preview-animation');
+        })
+    });
+    element.addEventListener('mouseout', () => {
+        previewArr.forEach((styling) => {
+            styling.classList.toggle('preview-animation');
+        })
+    });
+});
