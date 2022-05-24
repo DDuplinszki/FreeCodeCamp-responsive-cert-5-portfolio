@@ -121,6 +121,37 @@ body {
 
 }
 
+#project-container-title {
+    margin-bottom: 1rem;
+}
+
+.project-tile {
+    text-align: center;
+    /* padding: 1.5rem 4rem; */
+    width: 50%;
+    padding: 1.5rem 0;
+    margin: 1rem 0;
+    background-color: rgba(73, 81, 93, 0.2);
+}
+
+.project-tile:hover {
+    background-color: #1c2833;
+    transform: translateY(-0.5rem);
+    box-shadow: 0 0 5px 2px rgba(73, 81, 93, 0.75);
+    transition: 0.3s;
+}
+
+.project-tile:hover a {
+    color: white;
+}
+
+.project-tile a {
+    padding: 1.5rem 5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #1c2833;
+}
+
 img {
     width: 80%;
     height: auto;
@@ -130,7 +161,7 @@ img {
 
 .preview-animation {
     display: block;
-    animation: fadein 0.85s ease-out;
+    animation: fadein 0.75s ease-out;
 }
 
 @keyframes fadein {
