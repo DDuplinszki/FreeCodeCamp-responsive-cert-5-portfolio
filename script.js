@@ -2,19 +2,19 @@
 const fccImages = {
     "Tribute Page": {
         image:
-        "https://dand16.github.io/CDN/FCC%20responsive%20tribute.png"
+        "https://dand16.github.io/CDN/FCC%20responsive%20tribute.webp"
     },
     "Landing Page": {
         image:
-        "https://dand16.github.io/CDN/FCC%20responsive%20landing%20page.png"
+        "https://dand16.github.io/CDN/FCC%20responsive%20landing%20page.webp"
     },
     "Technical Documentation": {
         image:
-        "https://dand16.github.io/CDN/FCC%20responsive%20documentation.png"
+        "https://dand16.github.io/CDN/FCC%20responsive%20documentation.webp"
     },
     "Survey Form": {
         image:
-        "https://dand16.github.io/CDN/FCC%20responsive%20survey.png"
+        "https://dand16.github.io/CDN/FCC%20responsive%20survey.webp"
     }
 };
 
@@ -36,19 +36,19 @@ links.forEach((link) => {
 const gitImages = {
     "Where is the ISS?": {
         image:
-        "https://dand16.github.io/CDN/react%20iss.png"
+        "https://dand16.github.io/CDN/react%20iss.webp"
     },
     "Castillo Construction": {
         image:
-        "https://dand16.github.io/CDN/frontend%20castillo.png"
+        "https://dand16.github.io/CDN/frontend%20castillo.webp"
     },
     "Number guessing game": {
         image:
-        "https://dand16.github.io/CDN/number%20guessing%20game.png"
+        "https://dand16.github.io/CDN/number%20guessing%20game.webp"
     },
     "Crypto price info API": {
         image:
-        "https://dand16.github.io/CDN/crypto%20api.png"
+        "https://dand16.github.io/CDN/crypto%20api.webp"
     }
 };
 
