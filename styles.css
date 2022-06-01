@@ -113,14 +113,6 @@ body {
     align-items: center;
 }
 
-#project-preview {
-
-}
-
-#project-container {
-
-}
-
 #project-container-title {
     margin-bottom: 1rem;
 }
@@ -165,6 +157,73 @@ img {
     height: auto;
     display: none;
     box-shadow: 0 0 10px 0 rgba(73, 81, 93, 0.75);
+}
+
+#plans {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#plans h3 {
+    margin: 2rem 0;
+}
+
+#plans-future, #plans-current {
+    width: 30%;
+}
+
+#plans-future, #plans-current, #plans-react, #plans-db, #plans-other {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#plans-other {
+    margin-top: 4rem;
+}
+
+/* CSS-tricks https://css-tricks.com/examples/hrs/ */
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#profile-link {
+    width: 100%;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-link a {
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
+    color: #1c2833;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#profile-link a:hover {
+    background-color: #1c2833;
+    color: white;
+    transition: 0.4s;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    background-color:  rgba(27, 79, 114, 1.0);
+    color: white;
 }
 
 /* animations */
