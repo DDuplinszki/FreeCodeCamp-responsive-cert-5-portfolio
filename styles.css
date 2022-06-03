@@ -275,6 +275,10 @@ footer {
 
 /***** MEDIA QUERIES *****/
 @media only screen and (max-width: 1200px) {
+    #navbar ul {
+        align-items: center;
+        font-size: 1.1rem;
+    }
     #project-preview {
         display: none;
     }
@@ -290,5 +294,21 @@ footer {
     }
     #projects-header div {
         font-size: 1.25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #plans {
+        flex-direction: column;
+    }
+    #plans-future, #plans-current, #plans h3 {
+        width: 100%;
+    }
+    #plans h3 {
+        text-align: center;
+        order: -1;
+    }
+    #profile-link a {
+        width: 100%;
     }
   }
