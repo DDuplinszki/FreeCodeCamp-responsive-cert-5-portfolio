@@ -1,4 +1,5 @@
 // project presentation freeCodeCamp part
+// thanks "lasjorg" for the help :) https://forum.freecodecamp.org/t/vanilla-js-dom-event-question/510607/4
 const fccImages = {
     "Tribute Page": {
         image:
